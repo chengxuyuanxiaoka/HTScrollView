@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0C040C1E73017A000474DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C040B1E73017A000474DD /* main.m */; };
+		BD0C040F1E73017A000474DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C040E1E73017A000474DD /* AppDelegate.m */; };
+		BD0C04121E73017A000474DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C04111E73017A000474DD /* ViewController.m */; };
+		BD0C04151E73017A000474DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04131E73017A000474DD /* Main.storyboard */; };
+		BD0C04171E73017A000474DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04161E73017A000474DD /* Assets.xcassets */; };
+		BD0C041A1E73017A000474DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04181E73017A000474DD /* LaunchScreen.storyboard */; };
+		BD0C04251E73017A000474DD /* HTCarouselScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C04241E73017A000474DD /* HTCarouselScrollViewTests.m */; };
+		BD0C04301E73017A000474DD /* HTCarouselScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C042F1E73017A000474DD /* HTCarouselScrollViewUITests.m */; };
+		BD0C04411E7302EF000474DD /* HTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0C04401E7302EF000474DD /* HTTools.m */; };
+		BD0C04481E7303ED000474DD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04431E7303ED000474DD /* 1.png */; };
+		BD0C04491E7303ED000474DD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04441E7303ED000474DD /* 2.png */; };
+		BD0C044A1E7303ED000474DD /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04451E7303ED000474DD /* 3.png */; };
+		BD0C044B1E7303ED000474DD /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04461E7303ED000474DD /* 4.png */; };
+		BD0C044C1E7303ED000474DD /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0C04471E7303ED000474DD /* 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0C04211E73017A000474DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0C03FF1E73017A000474DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0C04061E73017A000474DD;
+			remoteInfo = HTCarouselScrollView;
+		};
+		BD0C042C1E73017A000474DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0C03FF1E73017A000474DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD0C04061E73017A000474DD;
+			remoteInfo = HTCarouselScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD0C04071E73017A000474DD /* HTCarouselScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCarouselScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0C040B1E73017A000474DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD0C040D1E73017A000474DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD0C040E1E73017A000474DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD0C04101E73017A000474DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD0C04111E73017A000474DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD0C04141E73017A000474DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD0C04161E73017A000474DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD0C04191E73017A000474DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD0C041B1E73017A000474DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0C04201E73017A000474DD /* HTCarouselScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTCarouselScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0C04241E73017A000474DD /* HTCarouselScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCarouselScrollViewTests.m; sourceTree = "<group>"; };
+		BD0C04261E73017A000474DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0C042B1E73017A000474DD /* HTCarouselScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTCarouselScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0C042F1E73017A000474DD /* HTCarouselScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCarouselScrollViewUITests.m; sourceTree = "<group>"; };
+		BD0C04311E73017A000474DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0C043E1E7302EF000474DD /* HTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTConfig.h; sourceTree = "<group>"; };
+		BD0C043F1E7302EF000474DD /* HTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTools.h; sourceTree = "<group>"; };
+		BD0C04401E7302EF000474DD /* HTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTools.m; sourceTree = "<group>"; };
+		BD0C04431E7303ED000474DD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BD0C04441E7303ED000474DD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BD0C04451E7303ED000474DD /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		BD0C04461E7303ED000474DD /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		BD0C04471E7303ED000474DD /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD0C04041E73017A000474DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C041D1E73017A000474DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C04281E73017A000474DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0C03FE1E73017A000474DD = {
+			isa = PBXGroup;
+			children = (
+				BD0C04091E73017A000474DD /* HTCarouselScrollView */,
+				BD0C04231E73017A000474DD /* HTCarouselScrollViewTests */,
+				BD0C042E1E73017A000474DD /* HTCarouselScrollViewUITests */,
+				BD0C04081E73017A000474DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD0C04081E73017A000474DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C04071E73017A000474DD /* HTCarouselScrollView.app */,
+				BD0C04201E73017A000474DD /* HTCarouselScrollViewTests.xctest */,
+				BD0C042B1E73017A000474DD /* HTCarouselScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD0C04091E73017A000474DD /* HTCarouselScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C04421E7303E6000474DD /* Resource */,
+				BD0C043D1E7302EF000474DD /* Tools */,
+				BD0C040D1E73017A000474DD /* AppDelegate.h */,
+				BD0C040E1E73017A000474DD /* AppDelegate.m */,
+				BD0C04101E73017A000474DD /* ViewController.h */,
+				BD0C04111E73017A000474DD /* ViewController.m */,
+				BD0C04131E73017A000474DD /* Main.storyboard */,
+				BD0C04161E73017A000474DD /* Assets.xcassets */,
+				BD0C04181E73017A000474DD /* LaunchScreen.storyboard */,
+				BD0C041B1E73017A000474DD /* Info.plist */,
+				BD0C040A1E73017A000474DD /* Supporting Files */,
+			);
+			path = HTCarouselScrollView;
+			sourceTree = "<group>";
+		};
+		BD0C040A1E73017A000474DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C040B1E73017A000474DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD0C04231E73017A000474DD /* HTCarouselScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C04241E73017A000474DD /* HTCarouselScrollViewTests.m */,
+				BD0C04261E73017A000474DD /* Info.plist */,
+			);
+			path = HTCarouselScrollViewTests;
+			sourceTree = "<group>";
+		};
+		BD0C042E1E73017A000474DD /* HTCarouselScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C042F1E73017A000474DD /* HTCarouselScrollViewUITests.m */,
+				BD0C04311E73017A000474DD /* Info.plist */,
+			);
+			path = HTCarouselScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		BD0C043D1E7302EF000474DD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C043E1E7302EF000474DD /* HTConfig.h */,
+				BD0C043F1E7302EF000474DD /* HTTools.h */,
+				BD0C04401E7302EF000474DD /* HTTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BD0C04421E7303E6000474DD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BD0C04431E7303ED000474DD /* 1.png */,
+				BD0C04441E7303ED000474DD /* 2.png */,
+				BD0C04451E7303ED000474DD /* 3.png */,
+				BD0C04461E7303ED000474DD /* 4.png */,
+				BD0C04471E7303ED000474DD /* 5.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD0C04061E73017A000474DD /* HTCarouselScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0C04341E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollView" */;
+			buildPhases = (
+				BD0C04031E73017A000474DD /* Sources */,
+				BD0C04041E73017A000474DD /* Frameworks */,
+				BD0C04051E73017A000474DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCarouselScrollView;
+			productName = HTCarouselScrollView;
+			productReference = BD0C04071E73017A000474DD /* HTCarouselScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0C041F1E73017A000474DD /* HTCarouselScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0C04371E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollViewTests" */;
+			buildPhases = (
+				BD0C041C1E73017A000474DD /* Sources */,
+				BD0C041D1E73017A000474DD /* Frameworks */,
+				BD0C041E1E73017A000474DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0C04221E73017A000474DD /* PBXTargetDependency */,
+			);
+			name = HTCarouselScrollViewTests;
+			productName = HTCarouselScrollViewTests;
+			productReference = BD0C04201E73017A000474DD /* HTCarouselScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD0C042A1E73017A000474DD /* HTCarouselScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0C043A1E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollViewUITests" */;
+			buildPhases = (
+				BD0C04271E73017A000474DD /* Sources */,
+				BD0C04281E73017A000474DD /* Frameworks */,
+				BD0C04291E73017A000474DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0C042D1E73017A000474DD /* PBXTargetDependency */,
+			);
+			name = HTCarouselScrollViewUITests;
+			productName = HTCarouselScrollViewUITests;
+			productReference = BD0C042B1E73017A000474DD /* HTCarouselScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0C03FF1E73017A000474DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "一米阳光";
+				TargetAttributes = {
+					BD0C04061E73017A000474DD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BD0C041F1E73017A000474DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD0C04061E73017A000474DD;
+					};
+					BD0C042A1E73017A000474DD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD0C04061E73017A000474DD;
+					};
+				};
+			};
+			buildConfigurationList = BD0C04021E73017A000474DD /* Build configuration list for PBXProject "HTCarouselScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0C03FE1E73017A000474DD;
+			productRefGroup = BD0C04081E73017A000474DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD0C04061E73017A000474DD /* HTCarouselScrollView */,
+				BD0C041F1E73017A000474DD /* HTCarouselScrollViewTests */,
+				BD0C042A1E73017A000474DD /* HTCarouselScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD0C04051E73017A000474DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0C041A1E73017A000474DD /* LaunchScreen.storyboard in Resources */,
+				BD0C044B1E7303ED000474DD /* 4.png in Resources */,
+				BD0C04481E7303ED000474DD /* 1.png in Resources */,
+				BD0C04491E7303ED000474DD /* 2.png in Resources */,
+				BD0C044A1E7303ED000474DD /* 3.png in Resources */,
+				BD0C044C1E7303ED000474DD /* 5.png in Resources */,
+				BD0C04171E73017A000474DD /* Assets.xcassets in Resources */,
+				BD0C04151E73017A000474DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C041E1E73017A000474DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C04291E73017A000474DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0C04031E73017A000474DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0C04121E73017A000474DD /* ViewController.m in Sources */,
+				BD0C04411E7302EF000474DD /* HTTools.m in Sources */,
+				BD0C040F1E73017A000474DD /* AppDelegate.m in Sources */,
+				BD0C040C1E73017A000474DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C041C1E73017A000474DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0C04251E73017A000474DD /* HTCarouselScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0C04271E73017A000474DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0C04301E73017A000474DD /* HTCarouselScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0C04221E73017A000474DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0C04061E73017A000474DD /* HTCarouselScrollView */;
+			targetProxy = BD0C04211E73017A000474DD /* PBXContainerItemProxy */;
+		};
+		BD0C042D1E73017A000474DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD0C04061E73017A000474DD /* HTCarouselScrollView */;
+			targetProxy = BD0C042C1E73017A000474DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD0C04131E73017A000474DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0C04141E73017A000474DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD0C04181E73017A000474DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD0C04191E73017A000474DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0C04321E73017A000474DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD0C04331E73017A000474DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD0C04351E73017A000474DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTCarouselScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD0C04361E73017A000474DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTCarouselScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD0C04381E73017A000474DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTCarouselScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTCarouselScrollView.app/HTCarouselScrollView";
+			};
+			name = Debug;
+		};
+		BD0C04391E73017A000474DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTCarouselScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTCarouselScrollView.app/HTCarouselScrollView";
+			};
+			name = Release;
+		};
+		BD0C043B1E73017A000474DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTCarouselScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTCarouselScrollView;
+			};
+			name = Debug;
+		};
+		BD0C043C1E73017A000474DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTCarouselScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.htreapay.xmantest.HTCarouselScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTCarouselScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0C04021E73017A000474DD /* Build configuration list for PBXProject "HTCarouselScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0C04321E73017A000474DD /* Debug */,
+				BD0C04331E73017A000474DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0C04341E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0C04351E73017A000474DD /* Debug */,
+				BD0C04361E73017A000474DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD0C04371E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0C04381E73017A000474DD /* Debug */,
+				BD0C04391E73017A000474DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD0C043A1E73017A000474DD /* Build configuration list for PBXNativeTarget "HTCarouselScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0C043B1E73017A000474DD /* Debug */,
+				BD0C043C1E73017A000474DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0C03FF1E73017A000474DD /* Project object */;
+}
