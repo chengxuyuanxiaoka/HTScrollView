@@ -1,9 +1,9 @@
 //
-//  LPCConfig.h
-//  MyUITabBarController
+//  HTConfig.h
+//  HTCarouselScrollView
 //
-//  Created by 神丶宁静致远 on 15/9/2.
-//  Copyright (c) 2015年 LPC. All rights reserved.
+//  Created by 一米阳光 on 17/3/10.
+//  Copyright © 2017年 一米阳光. All rights reserved.
 //
 
 #ifndef HTCarouselScrollView_HTConfig_h
